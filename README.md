@@ -1,6 +1,8 @@
 # 多屏分页动画（page_animation）
 ---
-## 实例请见dist目标的test文件
+## 实例请见dist目标的test.html文件
+
+## 使用说明
 
 ``` javascript
 var return_obj = yi_public.page_animation(page_json);
