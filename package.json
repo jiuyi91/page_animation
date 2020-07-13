@@ -1,0 +1,14 @@
+{
+  "name": "vu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pro": "webpack  --watch --config webpack-pro-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}
