@@ -9,7 +9,7 @@ var return_obj = yi_public.page_animation(page_json);
 //page_json  页面的分页信信息   《page_json说明》请向下看
 //return_obj 运行后的返回值，   《return_obj说明》请向下看
 ```
-## page_json说明
+### page_json说明
 ``` javascript
 var page_json = {
         page: {
@@ -45,7 +45,7 @@ var page_json = {
     };
 ```
 
-## return_obj说明
+### return_obj说明
 ``` javascript
 
 return_obj.go_page(Number)  //跳到那一页 Number为数字，可以在页面中有点击时用
@@ -53,4 +53,9 @@ return_obj.page_index       //Number此值是数字，是当前所在页码
 return_obj.page_list        //Array里面值是每一个页的列表
 
 ```
+
+## 代码说明
+1. 此项目函数编程编写，同样可以实现复用。
+2. 因想着此业务每页同时使用多个滑屏的场影很少，所以没有做方法的进一提起优化。
+3. 一页多次使用时还有优化的空间，可减少内存中的函用新生存的堆区，可用地址指向同一堆区进行复用。
 
